@@ -1,0 +1,185 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: black;
+    font-size: 22px;
+    color: seashell;
+    opacity: .9;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+}
+
+/* Main Navigation */
+.nav-bar {
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    height: 69px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+}
+
+.logo {
+    height: 50px;
+    margin-left: 10px;
+}
+
+.nav-menu {
+    margin-right: 10px;
+}
+
+.nav-menu li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.nav-menu li a {
+    color: seashell;
+    text-decoration: none;
+}
+
+.nav-menu li a:hover {
+    text-decoration: underline;
+}
+
+/* Mission Banner */
+.banner {
+    position: relative;
+    top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    background-image: url(./Images/img-mission-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner-mission {
+    width: 1200px;
+    background-color: black;
+    padding: 10px;
+}
+
+.banner-mission h2 {
+    margin-bottom: 20px;
+}
+
+/* Tea of the Month */
+.tea-of-month {
+    position: relative;
+    top: 70px;
+    margin-top: 50px;
+}
+
+.tea-of-month h2, h4 {
+    margin-bottom: 20px;
+}
+
+.featured-teas {
+    margin: 0px auto;
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tea-container {
+    margin-right: 32px;
+    margin-bottom: 5px;
+}
+
+.tea-container img {
+    margin-bottom: 5px;
+}
+
+/* Store Locations */
+.locations {
+    margin: 0 auto;
+    margin-top: 50px;
+    position: relative;
+    top: 70px;
+    height: 550px;
+    width: 1200px;
+    background-image: url(./Images/img-locations-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.locations h2 {
+    margin-bottom: 15px;
+}
+
+
+.locations-container {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.store-locations {
+    width: 300px;
+    background-color: black;
+    margin-right: 40px;
+    padding: 15px 0;
+    line-height: 2.5;
+    opacity: .9;
+}
+
+.store-locations:hover {
+    opacity: 1;
+}
+
+/* Contact us */
+.contact-us {
+    margin: 0 auto;
+    position: relative;
+    top: 70px;
+    margin-top: 10px;
+    display: flex;
+    height: 200px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-us h2, h5 {
+    margin-bottom: 40px;
+}
+
+/* Footer */
+.footer {
+    position: relative;
+    top: 70px;
+    bottom: 0px;
+    text-align: left;
+}
+
+.footer h5 {
+    margin-left: 20px;
+    margin-bottom: 90px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
